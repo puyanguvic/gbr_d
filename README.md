@@ -1,2 +1,7 @@
-# gbr_d
-gravity backpressure routing daemon in C++
+run
+
+docker build -t gbr_daemon .
+
+run docker.sh
+
+docker run -it --rm gbr_d
